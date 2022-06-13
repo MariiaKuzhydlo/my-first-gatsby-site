@@ -13,13 +13,17 @@
     "gatsby-plugin-react-helmet": "^5.15.0",
     "gatsby-plugin-sharp": "^4.15.1",
     "gatsby-source-filesystem": "^4.15.0",
+    "gatsby-source-prismic": "^5.2.7",
+    "gatsby-transformer-json": "^4.16.0",
     "gatsby-transformer-sharp": "^4.15.1",
     "prop-types": "^15.8.1",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
-    "react-helmet": "^6.1.0"
+    "react-helmet": "^6.1.0",
+    "styled-components": "^5.3.5"
   },
   "devDependencies": {
+    "dotenv": "^16.0.1",
     "prettier": "^2.6.2"
   },
   "keywords": [

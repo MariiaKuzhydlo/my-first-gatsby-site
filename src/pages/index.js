@@ -1,12 +1,22 @@
 
 import * as React from 'react'
-import Layout from '../components/layout'
+import MostRecent from '../components/mostRecent'
+import GlobalStyles from '../components/Global'
+import PageContainer from '../components/pageContainer'
+import Banner from '../components/banner'
+
+
 
 const IndexPage = () => {
 	return (
-		<Layout pageTitle="Home Page">
-			<p>I'm making this by following the Gatsby Tutorial.</p>
-		</Layout>
+		<>
+			<GlobalStyles />
+			<PageContainer>
+				<Banner />
+				<MostRecent />
+			</PageContainer>
+		</>
+
 	)
 }
 export default IndexPage
